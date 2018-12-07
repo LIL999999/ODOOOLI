@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from . import lesson
 from . import subject
 from . import res_partner
@@ -41,3 +43,8 @@ for lesson in lesson_obj.browse([1,2,3]):
     @api.multi
     def name_get(self):
         return [(lesson.id, '%s:%s' % (lesson.name, lesson.teacher_id.name)) for lesson in self]
+
+
+
+
+#  vim:et:si:sta:ts=4:sts=4:sw=4:tw=79:
