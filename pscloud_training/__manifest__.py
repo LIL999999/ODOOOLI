@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'PS Cloud 培训',
+    'name': 'pscloud_training',
     'version': '12.0.1.0',
-    'summary': 'PS Cloud 培训',
+    'summary': 'pscloud_training',
     'author': "www.mypscloud.com",
     'website': 'https://www.mypscloud.com/',
     'category': 'Tools',

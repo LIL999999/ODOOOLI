@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from odoo import api, fields, models
 from odoo.exceptions import UserError, ValidationError
 import datetime
@@ -48,3 +50,8 @@ class TrainingLesson(models.Model):
     @api.multi
     def action_confirm(self):
         return self.write({'state': 'confirm'})
+
+
+
+
+#  vim:et:si:sta:ts=4:sts=4:sw=4:tw=79:
